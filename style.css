@@ -242,15 +242,15 @@ header {
   margin-bottom: 2em;
   line-height: 1.6em;
 }
-.item1 [role="download"],
-.item14 [role="download"] {
+.item1 [role="button"],
+.item14 [role="button"] {
   width: 40%;
   display: flex;
   justify-content: space-between;
   margin-top: 0.5em;
 }
-.item1 [role="download"] button,
-.item14 [role="download"] button {
+.item1 [role="button"] button,
+.item14 [role="button"] button {
   border: none;
   color: white;
   background: hsl(233, 100%, 69%);
@@ -259,8 +259,8 @@ header {
   height: 6vh;
   cursor: pointer;
 }
-.item1 [role="download"] .btn-ios,
-.item14 [role="download"] .btn-ios {
+.item1 [role="button"] .btn-ios,
+.item14 [role="button"] .btn-ios {
   background: hsl(171, 66%, 44%);
 }
 footer {
@@ -357,15 +357,15 @@ footer {
     width: 92%;
     font-size: 1em;
   }
-  .item1 [role="download"],
-  .item14 [role="download"] {
+  .item1 [role="button"],
+  .item14 [role="button"] {
     width: 150%;
     flex-direction: column;
     align-items: center;
   }
 
-  .item1 [role="download"] button,
-  .item14 [role="download"] button {
+  .item1 [role="button"] button,
+  .item14 [role="button"] button {
     height: 3em;
     margin-bottom: 1em;
   }
